@@ -1,12 +1,29 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
+syslog/*
+.submodule/*
+.DS_Store
+
+# IDE Files
+/nbproject/
+.idea/*
+upload/*
+uploads/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+## vscode file
+.vscode
+
+##config file
+app_loc.ini
+
+##go build file
 *.so
-*.dylib
-
-# Test binary, build with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+*.a
+*.o
+*.exe
+*.log
